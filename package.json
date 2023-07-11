@@ -1,0 +1,28 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon src/index.js --ignore __tests__"
+  },
+  "keywords": [],
+  "author": "Gabriel Frederico Takahashi Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cpf-cnpj-validator": "^1.0.3",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.27.0",
+    "express": "^4.17.2",
+    "gerador-validador-cpf": "^5.0.2",
+    "mongoose": "^6.1.2",
+    "node-csv": "^0.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}
